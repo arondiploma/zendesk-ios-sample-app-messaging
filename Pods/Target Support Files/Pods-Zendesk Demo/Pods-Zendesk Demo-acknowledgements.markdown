@@ -1,0 +1,102 @@
+# Acknowledgements
+This application makes use of the following third party libraries:
+
+## Zendesk
+
+ZendeskSDKs
+Created by Zendesk on  1/09/2020
+Copyright (c) 2020 Zendesk. All rights reserved.
+By downloading or using the Zendesk Mobile SDK, You agree to the Zendesk Master
+Subscription Agreement https://www.zendesk.com/company/customers-partners/#master-subscription-agreement and Application Developer and API License
+Agreement https://www.zendesk.com/company/customers-partners/#application-developer-api-license-agreement and
+acknowledge that such terms govern Your use of and access to the Mobile SDK.
+
+
+## ZendeskSDKConversationKit
+
+ZendeskSDKs
+Created by Zendesk on  1/09/2020
+Copyright (c) 2020 Zendesk. All rights reserved.
+By downloading or using the Zendesk Mobile SDK, You agree to the Zendesk Master
+Subscription Agreement https://www.zendesk.com/company/customers-partners/#master-subscription-agreement and Application Developer and API License
+Agreement https://www.zendesk.com/company/customers-partners/#application-developer-api-license-agreement and
+acknowledge that such terms govern Your use of and access to the Mobile SDK.
+
+
+## ZendeskSDKFayeClient
+
+ZendeskSDKs
+Created by Zendesk on  1/09/2020
+Copyright (c) 2020 Zendesk. All rights reserved.
+By downloading or using the Zendesk Mobile SDK, You agree to the Zendesk Master
+Subscription Agreement https://www.zendesk.com/company/customers-partners/#master-subscription-agreement and Application Developer and API License
+Agreement https://www.zendesk.com/company/customers-partners/#application-developer-api-license-agreement and
+acknowledge that such terms govern Your use of and access to the Mobile SDK.
+
+
+## ZendeskSDKHTTPClient
+
+ZendeskSDKs
+Created by Zendesk on  1/09/2020
+Copyright (c) 2020 Zendesk. All rights reserved.
+By downloading or using the Zendesk Mobile SDK, You agree to the Zendesk Master
+Subscription Agreement https://www.zendesk.com/company/customers-partners/#master-subscription-agreement and Application Developer and API License
+Agreement https://www.zendesk.com/company/customers-partners/#application-developer-api-license-agreement and
+acknowledge that such terms govern Your use of and access to the Mobile SDK.
+
+
+## ZendeskSDKLogger
+
+ZendeskSDKs
+Created by Zendesk on  1/09/2020
+Copyright (c) 2020 Zendesk. All rights reserved.
+By downloading or using the Zendesk Mobile SDK, You agree to the Zendesk Master
+Subscription Agreement https://www.zendesk.com/company/customers-partners/#master-subscription-agreement and Application Developer and API License
+Agreement https://www.zendesk.com/company/customers-partners/#application-developer-api-license-agreement and
+acknowledge that such terms govern Your use of and access to the Mobile SDK.
+
+
+## ZendeskSDKMessaging
+
+ZendeskSDKs
+Created by Zendesk on  1/09/2020
+Copyright (c) 2020 Zendesk. All rights reserved.
+By downloading or using the Zendesk Mobile SDK, You agree to the Zendesk Master
+Subscription Agreement https://www.zendesk.com/company/customers-partners/#master-subscription-agreement and Application Developer and API License
+Agreement https://www.zendesk.com/company/customers-partners/#application-developer-api-license-agreement and
+acknowledge that such terms govern Your use of and access to the Mobile SDK.
+
+
+## ZendeskSDKSocketClient
+
+ZendeskSDKs
+Created by Zendesk on  1/09/2020
+Copyright (c) 2020 Zendesk. All rights reserved.
+By downloading or using the Zendesk Mobile SDK, You agree to the Zendesk Master
+Subscription Agreement https://www.zendesk.com/company/customers-partners/#master-subscription-agreement and Application Developer and API License
+Agreement https://www.zendesk.com/company/customers-partners/#application-developer-api-license-agreement and
+acknowledge that such terms govern Your use of and access to the Mobile SDK.
+
+
+## ZendeskSDKStorage
+
+ZendeskSDKs
+Created by Zendesk on  1/09/2020
+Copyright (c) 2020 Zendesk. All rights reserved.
+By downloading or using the Zendesk Mobile SDK, You agree to the Zendesk Master
+Subscription Agreement https://www.zendesk.com/company/customers-partners/#master-subscription-agreement and Application Developer and API License
+Agreement https://www.zendesk.com/company/customers-partners/#application-developer-api-license-agreement and
+acknowledge that such terms govern Your use of and access to the Mobile SDK.
+
+
+## ZendeskSDKUIComponents
+
+ZendeskSDKs
+Created by Zendesk on  1/09/2020
+Copyright (c) 2020 Zendesk. All rights reserved.
+By downloading or using the Zendesk Mobile SDK, You agree to the Zendesk Master
+Subscription Agreement https://www.zendesk.com/company/customers-partners/#master-subscription-agreement and Application Developer and API License
+Agreement https://www.zendesk.com/company/customers-partners/#application-developer-api-license-agreement and
+acknowledge that such terms govern Your use of and access to the Mobile SDK.
+
+Generated by CocoaPods - https://cocoapods.org
