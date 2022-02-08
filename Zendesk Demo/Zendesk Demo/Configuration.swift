@@ -52,7 +52,7 @@ struct config {
     */
 
     // IOS Messaging Channel Key
-    // You can find this information at https://{subdomain}.zendesk.com/agent/admin/mobile_sdk
+    // You can find this information at https://{subdomain}.zendesk.com/admin/channels/messaging_and_social/channels_list
     static var channelKey = "eyJzZXR0aW5xxxxxxxxxxxxxxxxmdzLzAxRlYyMzI5SE5NUUNKMDE5V0M0MDVCVEZOLmpzb24ifQ=="
 
     /*

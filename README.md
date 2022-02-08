@@ -68,6 +68,17 @@ static var script = """
                     """
 ```
 
+#### FOR THE HELP SCREEN
+
+```swift
+// Configuration.swift
+
+// IOS Messaging Channel Key
+// You can find this information at https://{subdomain}.zendesk.com/admin/channels/messaging_and_social/channels_list
+static var channelKey = "eyJzZXR0aW5xxxxxxxxxxxxxxxxmdzLzAxRlYyMzI5SE5NUUNKMDE5V0M0MDVCVEZOLmpzb24ifQ=="
+```
+
+
 #### CUSTOMIZING THE BRANDING
 
 - Open the `Assets.xcassets` folder on the left-side panel of your Xcode project
