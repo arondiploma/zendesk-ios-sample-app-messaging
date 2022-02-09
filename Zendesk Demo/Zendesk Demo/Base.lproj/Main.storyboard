@@ -68,6 +68,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="G0J-jg-10t"/>
                                 </constraints>
+                                <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <imageReference key="image" image="person.fill" catalog="system" symbolScale="large"/>
