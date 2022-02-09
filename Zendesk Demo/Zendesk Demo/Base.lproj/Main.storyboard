@@ -4,6 +4,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -55,87 +56,121 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="Uk4-z0-DPX">
                                 <rect key="frame" x="0.0" y="173" width="414" height="640"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Wk-9Q-o9l">
-                                <rect key="frame" x="20" y="642" width="374" height="45"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="45" id="G0J-jg-10t"/>
-                                </constraints>
-                                <state key="normal" title="Account Switcher">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <action selector="AccountsButton:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="28D-uk-9Xa"/>
-                                    <segue destination="lRW-gN-D5v" kind="show" id="Guo-Dt-wwm"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X7c-Rp-kia">
-                                <rect key="frame" x="20" y="695" width="374" height="45"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="45" id="j0W-Ec-bdc"/>
-                                </constraints>
-                                <state key="normal" title="Settings">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <action selector="TicketsButton:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="m3r-DE-XeA"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ay7-Vo-Lk8">
-                                <rect key="frame" x="20" y="565" width="374" height="45"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="45" id="Z8e-ve-6wL"/>
-                                </constraints>
-                                <state key="normal" title="Chat with support">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <action selector="ChatButton:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="F1e-3x-aPa"/>
-                                </connections>
-                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="kh7-kH-OkS">
                                 <rect key="frame" x="31" y="108" width="352" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="KZl-kJ-b8J"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vi8-sJ-9T2">
-                                <rect key="frame" x="20" y="748" width="374" height="45"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Wk-9Q-o9l">
+                                <rect key="frame" x="20" y="753" width="374" height="45"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="45" id="Tgz-wc-evO"/>
+                                    <constraint firstAttribute="height" constant="45" id="G0J-jg-10t"/>
                                 </constraints>
-                                <state key="normal" title="System">
+                                <state key="normal">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <imageReference key="image" image="person.fill" catalog="system" symbolScale="large"/>
+                                </state>
+                                <connections>
+                                    <segue destination="lRW-gN-D5v" kind="show" id="Guo-Dt-wwm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YQ7-wn-aZf">
+                                <rect key="frame" x="20" y="577" width="374" height="45"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="5Kd-UP-gRp"/>
+                                </constraints>
+                                <state key="normal" title="Submit a request">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Uk-Vk-1TH">
+                                <rect key="frame" x="20" y="630" width="374" height="45"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="OFN-aP-ri8"/>
+                                </constraints>
+                                <state key="normal" title="My Tickets">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DFo-gd-Cir">
+                                <rect key="frame" x="20" y="524" width="374" height="45"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="Je9-3J-d4h"/>
+                                </constraints>
+                                <state key="normal" title="Chat with support">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="CallUs:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="LbT-dR-vgj"/>
+                                    <action selector="ChatButton:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="8mH-3C-9mm"/>
                                 </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wPc-Qw-UwN">
+                                <rect key="frame" x="20" y="471" width="374" height="45"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="q99-1Z-AZV"/>
+                                </constraints>
+                                <state key="normal" title="Read our FAQ">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N6X-Q2-b3Q">
+                                <rect key="frame" x="20" y="396" width="374" height="45"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="eh7-2h-r8J"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <state key="normal" title="I need help">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kwM-Vy-cTS">
+                                <rect key="frame" x="20" y="683" width="374" height="45"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="jV3-gJ-Lk5"/>
+                                </constraints>
+                                <state key="normal" title="Call Us">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="kwM-Vy-cTS" firstAttribute="top" secondItem="2Uk-Vk-1TH" secondAttribute="bottom" constant="8" id="02B-gc-cOP"/>
+                            <constraint firstItem="N6X-Q2-b3Q" firstAttribute="leading" secondItem="2Uk-Vk-1TH" secondAttribute="leading" id="27m-fg-Ymt"/>
                             <constraint firstItem="O1u-W8-tvY" firstAttribute="trailing" secondItem="4Wk-9Q-o9l" secondAttribute="trailing" constant="20" id="7EH-rp-BHh"/>
+                            <constraint firstItem="N6X-Q2-b3Q" firstAttribute="leading" secondItem="4Wk-9Q-o9l" secondAttribute="leading" id="7Kr-Rl-DZ2"/>
+                            <constraint firstItem="N6X-Q2-b3Q" firstAttribute="trailing" secondItem="kwM-Vy-cTS" secondAttribute="trailing" id="90e-Z4-Hkh"/>
                             <constraint firstItem="Uk4-z0-DPX" firstAttribute="top" secondItem="kh7-kH-OkS" secondAttribute="bottom" constant="20" id="9AD-Ny-0Wl"/>
-                            <constraint firstItem="vi8-sJ-9T2" firstAttribute="top" secondItem="X7c-Rp-kia" secondAttribute="bottom" constant="8" id="9Ok-xW-J3b"/>
-                            <constraint firstItem="4Wk-9Q-o9l" firstAttribute="top" secondItem="Ay7-Vo-Lk8" secondAttribute="bottom" constant="32" id="A1b-tz-vcG"/>
+                            <constraint firstItem="N6X-Q2-b3Q" firstAttribute="leading" secondItem="wPc-Qw-UwN" secondAttribute="leading" id="9px-qr-UiV"/>
                             <constraint firstItem="O1u-W8-tvY" firstAttribute="trailing" secondItem="Uk4-z0-DPX" secondAttribute="trailing" id="Bgi-ts-kc1"/>
+                            <constraint firstItem="N6X-Q2-b3Q" firstAttribute="top" secondItem="QS5-Rx-YEW" secondAttribute="top" constant="396" id="CdN-0I-ebw"/>
+                            <constraint firstItem="2Uk-Vk-1TH" firstAttribute="top" secondItem="YQ7-wn-aZf" secondAttribute="bottom" constant="8" id="Dfo-NP-cB5"/>
                             <constraint firstItem="Uk4-z0-DPX" firstAttribute="leading" secondItem="O1u-W8-tvY" secondAttribute="leading" id="Fc5-dF-kzU"/>
-                            <constraint firstItem="X7c-Rp-kia" firstAttribute="leading" secondItem="O1u-W8-tvY" secondAttribute="leading" constant="20" id="NRb-sA-Es7"/>
-                            <constraint firstItem="O1u-W8-tvY" firstAttribute="trailing" secondItem="vi8-sJ-9T2" secondAttribute="trailing" constant="20" id="TFo-Wy-rbP"/>
-                            <constraint firstItem="X7c-Rp-kia" firstAttribute="top" secondItem="4Wk-9Q-o9l" secondAttribute="bottom" constant="8" id="VE9-7c-1jv"/>
+                            <constraint firstItem="N6X-Q2-b3Q" firstAttribute="leading" secondItem="DFo-gd-Cir" secondAttribute="leading" id="I0B-Ze-Jqi"/>
+                            <constraint firstItem="N6X-Q2-b3Q" firstAttribute="trailing" secondItem="DFo-gd-Cir" secondAttribute="trailing" id="KhJ-qi-WfD"/>
+                            <constraint firstItem="N6X-Q2-b3Q" firstAttribute="trailing" secondItem="4Wk-9Q-o9l" secondAttribute="trailing" id="KtC-2k-yKg"/>
+                            <constraint firstItem="YQ7-wn-aZf" firstAttribute="top" secondItem="DFo-gd-Cir" secondAttribute="bottom" constant="8" id="RTL-z4-4d8"/>
+                            <constraint firstItem="4Wk-9Q-o9l" firstAttribute="top" secondItem="kwM-Vy-cTS" secondAttribute="bottom" constant="25" id="S5b-8D-FRE"/>
+                            <constraint firstItem="N6X-Q2-b3Q" firstAttribute="leading" secondItem="YQ7-wn-aZf" secondAttribute="leading" id="TKi-p5-GcK"/>
                             <constraint firstItem="kh7-kH-OkS" firstAttribute="top" secondItem="O1u-W8-tvY" secondAttribute="top" constant="20" id="VFj-kM-2qc"/>
-                            <constraint firstItem="vi8-sJ-9T2" firstAttribute="leading" secondItem="O1u-W8-tvY" secondAttribute="leading" constant="20" id="dKU-df-Ea8"/>
-                            <constraint firstItem="O1u-W8-tvY" firstAttribute="trailing" secondItem="X7c-Rp-kia" secondAttribute="trailing" constant="20" id="f9A-Oq-Jfx"/>
-                            <constraint firstItem="O1u-W8-tvY" firstAttribute="bottom" secondItem="vi8-sJ-9T2" secondAttribute="bottom" constant="20" id="gSE-dA-TjA"/>
+                            <constraint firstItem="N6X-Q2-b3Q" firstAttribute="leading" secondItem="kwM-Vy-cTS" secondAttribute="leading" id="aXr-tO-jIk"/>
+                            <constraint firstItem="N6X-Q2-b3Q" firstAttribute="trailing" secondItem="2Uk-Vk-1TH" secondAttribute="trailing" id="cEr-Gn-FCN"/>
+                            <constraint firstItem="wPc-Qw-UwN" firstAttribute="top" secondItem="N6X-Q2-b3Q" secondAttribute="bottom" constant="30" id="cuK-hc-ASe"/>
                             <constraint firstItem="4Wk-9Q-o9l" firstAttribute="leading" secondItem="O1u-W8-tvY" secondAttribute="leading" constant="20" id="iUB-xa-jaY"/>
-                            <constraint firstItem="O1u-W8-tvY" firstAttribute="trailing" secondItem="Ay7-Vo-Lk8" secondAttribute="trailing" constant="20" id="jFm-sR-oXq"/>
                             <constraint firstItem="kh7-kH-OkS" firstAttribute="centerX" secondItem="QS5-Rx-YEW" secondAttribute="centerX" id="jSb-aH-6qP"/>
+                            <constraint firstItem="DFo-gd-Cir" firstAttribute="top" secondItem="wPc-Qw-UwN" secondAttribute="bottom" constant="8" id="n7V-Ao-N4l"/>
+                            <constraint firstItem="N6X-Q2-b3Q" firstAttribute="trailing" secondItem="wPc-Qw-UwN" secondAttribute="trailing" id="tWW-nH-buZ"/>
                             <constraint firstItem="O1u-W8-tvY" firstAttribute="bottom" secondItem="Uk4-z0-DPX" secondAttribute="bottom" id="tsd-UR-kkx"/>
-                            <constraint firstItem="Ay7-Vo-Lk8" firstAttribute="leading" secondItem="O1u-W8-tvY" secondAttribute="leading" constant="20" id="yWF-PU-R8H"/>
+                            <constraint firstItem="N6X-Q2-b3Q" firstAttribute="trailing" secondItem="YQ7-wn-aZf" secondAttribute="trailing" id="v2v-Hq-iWo"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Help" id="PQw-C4-RHM"/>
@@ -270,6 +305,7 @@
         <image name="Logo" width="352" height="252"/>
         <image name="house.fill" catalog="system" width="128" height="106"/>
         <image name="message.fill" catalog="system" width="128" height="113"/>
+        <image name="person.fill" catalog="system" width="128" height="120"/>
         <systemColor name="darkTextColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
